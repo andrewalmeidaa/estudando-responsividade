@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: darkgray;
+}
+
+
+
+.navBar{
+    height: 10vh;
+    background-color: red;
+}
+.navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.itens-navBar{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.links{
+    color: black;
+    
+}
+.img-content{
+    width: 80px;
+    height: 60px;
+    border-radius: 10px;
+    
+}
+
+.banner{
+    height: 500px;
+    background-color: blue;
+}
+
+.item{
+    height: 100px;
+    width: 100px;
+    background-color: green; 
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding: 75px;
+   
+}
+
+@media (max-width:425px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        gap: 10px 10px;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media (max-width:425px){
+    .navBar{
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
+
+/*  
+    display: flex;
+    flex-direction: row;
+    gap: 10px 200px;
+    justify-content: space-evenly;
+    align-items: ;
+
+
+
+
+/*
+
